@@ -1,16 +1,17 @@
 package markup;
 import java.util.List;
 
-public abstract class AbstractMarkup extends AbstractAbstractMarkup {
-
+public abstract class AbstractMarkup  {
+    protected List<Texts> texts;
     public AbstractMarkup(List <Texts> texts) {
-        super.texts = texts;
+        this.texts = texts;
     }
-
 
     public void toMarkdown(StringBuilder sb, String extra) {
         sb.append(extra);
-        super.toMarkdown(sb);
+        for (Texts text: texts) {
+            text.toMarkdown(sb);
+        }
         sb.append(extra);
     }
 

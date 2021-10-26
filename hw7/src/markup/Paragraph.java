@@ -7,5 +7,8 @@ public class Paragraph extends AbstractMarkup{
         super(texts);
     }
 
+    public void toMarkdown(StringBuilder sb) {
+        super.toMarkdown(sb, "");
+    }
 
 }
