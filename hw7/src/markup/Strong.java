@@ -9,10 +9,11 @@ public class Strong extends AbstractMarkup implements Texts{
        super(texts);
     }
 
-    @Override
-   public void toMarkdown(StringBuilder sb) {
-        super.toMarkdown(sb, "__");
+    public void toBBCode(StringBuilder sb) {
+        super.toBBCode(sb, "[b]", "[/b]");
     }
 
-
+    public void toMarkdown(StringBuilder sb) {
+        super.toMarkdown(sb, "__");
+    }
 }

@@ -11,5 +11,7 @@ public class Text implements Texts{
         sb.append(text);
     }
 
-
+    public void toBBCode(StringBuilder sb) {
+        toMarkdown(sb);
+    }
 }

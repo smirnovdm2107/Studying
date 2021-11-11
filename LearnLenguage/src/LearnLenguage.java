@@ -1,5 +1,4 @@
-import com.sun.tools.javac.Main;
-
+import ms.*;
 public class LearnLenguage {
 
     public static void main(String[] args) {

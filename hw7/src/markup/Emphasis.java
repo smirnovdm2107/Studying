@@ -6,10 +6,12 @@ public class Emphasis extends AbstractMarkup implements Texts{
     public Emphasis(List<Texts> texts) {
         super(texts);
     }
-    @Override
-    public void  toMarkdown(StringBuilder sb) {
-        super.toMarkdown(sb, "*");
+
+    public void toBBCode(StringBuilder sb) {
+        super.toBBCode(sb, "[i]", "[/i]");
     }
 
-
+    public void toMarkdown(StringBuilder sb) {
+        super.toMarkdown(sb, "*");
+    }
 }

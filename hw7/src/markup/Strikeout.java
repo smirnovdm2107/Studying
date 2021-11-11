@@ -7,7 +7,10 @@ public class Strikeout extends AbstractMarkup implements Texts{
         super(texts);
     }
 
-    @Override
+    public void toBBCode(StringBuilder sb) {
+        super.toBBCode(sb, "[s]", "[/s]");
+    }
+
     public void toMarkdown(StringBuilder sb) {
         super.toMarkdown(sb, "~");
     }
