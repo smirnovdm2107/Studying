@@ -5,55 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7fd1542-66e0-43d5-b69f-1606f32b6bca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LearnLenguage/src/WordFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/North-Western Russia Regional Contest - 2019/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/North-Western Russia Regional Contest - 2019/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/North-Western Russia Regional Contest - 2019/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/North-Western Russia Regional Contest - 2019/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/North-Western Russia Regional Contest - 2019/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/North-Western Russia Regional Contest - 2019/North-Western Russia Regional Contest - 2019.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw7/src/markup/AbstractList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw7/src/markup/Itemable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw7/src/markup/ListItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw7/src/markup/OrderedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw7/src/markup/UnorderedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnLenguage/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/LearnLenguage/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnLenguage/out/production/LearnLenguage/LearnLenguage.class" beforeDir="false" afterPath="$PROJECT_DIR$/LearnLenguage/out/production/LearnLenguage/LearnLenguage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnLenguage/out/production/LearnLenguage/MainWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/LearnLenguage/out/production/LearnLenguage/MainWindow$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnLenguage/out/production/LearnLenguage/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/LearnLenguage/out/production/LearnLenguage/MainWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnLenguage/src/LearnLenguage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnLenguage/src/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnLenguage/src/MainWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw/src" beforeDir="false" afterPath="$PROJECT_DIR$/hw/src" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw6/src" beforeDir="false" afterPath="$PROJECT_DIR$/hw6/src" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/out/production/hw7/markup/AbstractAbstractMarkup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/out/production/hw7/markup/AbstractMarkup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/out/production/hw7/markup/Emphasis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/out/production/hw7/markup/MarkdownTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/out/production/hw7/markup/Paragraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/out/production/hw7/markup/Strikeout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/out/production/hw7/markup/Strong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/out/production/hw7/markup/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/hw7/out/production/hw7/markup/Text.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/out/production/hw7/markup/Texts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/src/markup/AbstractAbstractMarkup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/src/markup/AbstractMarkup.class" beforeDir="false" afterPath="$PROJECT_DIR$/hw7/src/markup/AbstractMarkup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/src/markup/AbstractMarkup.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw7/src/markup/AbstractMarkup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/src/markup/Emphasis.class" beforeDir="false" afterPath="$PROJECT_DIR$/hw7/src/markup/Emphasis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/src/markup/Emphasis.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw7/src/markup/Emphasis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/src/markup/Markdown.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/src/markup/MarkdownTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/src/markup/Paragraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/hw7/src/markup/Paragraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/src/markup/Paragraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw7/src/markup/Paragraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/src/markup/Strikeout.class" beforeDir="false" afterPath="$PROJECT_DIR$/hw7/src/markup/Strikeout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/src/markup/Strikeout.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw7/src/markup/Strikeout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/src/markup/Strong.class" beforeDir="false" afterPath="$PROJECT_DIR$/hw7/src/markup/Strong.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/src/markup/Strong.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw7/src/markup/Strong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/src/markup/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/hw7/src/markup/Text.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/src/markup/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw7/src/markup/Text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/src/markup/Texts.class" beforeDir="false" afterPath="$PROJECT_DIR$/hw7/src/markup/Texts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw7/src/markup/Texts.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw7/src/markup/Texts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prog-intro" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +47,7 @@
       <workItem from="1636398292064" duration="1831000" />
       <workItem from="1636466057331" duration="1142000" />
       <workItem from="1636644680933" duration="8000" />
+      <workItem from="1636652760286" duration="316000" />
     </task>
     <servers />
   </component>
