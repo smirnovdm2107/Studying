@@ -2,7 +2,7 @@ public class SnakePole implements Pole{
     private final Ceil[][] field;
     private final Snake snake;
     public SnakePole(Snake snake) {
-        this.field = new Ceil[10][20];
+        this.field = new Ceil[20][20];
         for (Ceil[] row: field) {
             for (Ceil ceil: row) {
                 ceil = Ceil.NONE;
