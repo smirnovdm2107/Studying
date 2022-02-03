@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.0.10'
+    id "application"
+}
+
+ext {
+    javaMainClass = "Main"
+}
+
+application {
+    mainClassName = javaMainClass
+}
+
+group 'org.snake'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+}
+javafx {
+    modules = [ 'javafx.controls' ]
+}
+test {
+    useJUnitPlatform()
+}

@@ -1,3 +1,5 @@
+.gradle
+libs/
 # Compiled class file
 *.class
 
