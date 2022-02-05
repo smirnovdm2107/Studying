@@ -1,9 +1,9 @@
-package expression;
+package expression.exceptions;
 
-import expression.exceptions.DivideByZeroException;
-import expression.exceptions.OverflowException;
+import expression.BasicExpression;
+import expression.Divide;
 
-public class CheckedDivide extends Divide implements BasicExpression{
+public class CheckedDivide extends Divide implements BasicExpression {
 
     public CheckedDivide(BasicExpression op1, BasicExpression op2) {
         super(op1, op2);

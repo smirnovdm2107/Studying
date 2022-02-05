@@ -1,14 +1,23 @@
 package expression;
 
-import expression.parser.ExpressionParser;
+import expression.exceptions.ExpressionParser;
+
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String args[]) {
-        final Add example = new Add(new Add(new Multiply(new Variable("x"), new Variable("x")),
-                new Multiply(new Variable("x"), new Const(2))), new Const(1));
-        System.out.println(example.toMiniString());
-         System.out.println(new ExpressionParser().parse("    l0   (0)").evaluate(0));
+        Scanner in = new Scanner(System.in);
+        int x = 0;
+        int y = 0;
+        int z = 0;
+        try {
+            System.out.println(
+                    new ExpressionParser().parse(in.nextLine()).evaluate(in.nextInt(), in.nextInt(), in.nextInt())
+            );
+        }catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
     }
 
 }

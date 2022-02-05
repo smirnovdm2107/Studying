@@ -7,7 +7,7 @@ public class MNKBoard implements Board{
     protected final Cell[][] field;
     public static final Map<Cell, String> CELL_STRING_MAP =  Map.of(
             Cell.X, "X",
-            Cell.E, ".",
+            Cell.E, "",
             Cell.O, "0"
     );
     protected Cell turn;

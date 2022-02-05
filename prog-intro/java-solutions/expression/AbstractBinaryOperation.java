@@ -1,11 +1,8 @@
 package expression;
 
-import java.util.Stack;
-
 public abstract class AbstractBinaryOperation implements BasicExpression {
     protected final BasicExpression op1;
     protected final BasicExpression op2;
-    // Убрать
 
     public AbstractBinaryOperation(BasicExpression op1, BasicExpression op2)  {
         this.op1 = op1;

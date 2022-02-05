@@ -1,7 +1,8 @@
-package expression;
+package expression.exceptions;
 
 
-import expression.exceptions.OverflowException;
+import expression.Add;
+import expression.BasicExpression;
 
 public class CheckedAdd extends Add implements BasicExpression {
 
@@ -17,7 +18,7 @@ public class CheckedAdd extends Add implements BasicExpression {
                 throw new OverflowException(String.format("Too large value in adding: trying with %d and %d", x, y));
             }
         } else if (x < 0 && y < 0) {
-            if (Integer.MIN_VALUE - x < y) {
+            if (Integer.MIN_VALUE - x > y) {
                 throw new OverflowException(String.format("Too low value in adding: trying with %d and %d", x, y));
             }
         }

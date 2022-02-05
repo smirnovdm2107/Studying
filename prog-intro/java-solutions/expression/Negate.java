@@ -1,7 +1,5 @@
 package expression;
 
-import expression.exceptions.OverflowException;
-
 
 public class Negate extends AbstractUnaryOperation implements BasicExpression {
 
